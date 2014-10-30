@@ -43,7 +43,7 @@ function onDeviceReady() {
           console.log("insertId: " + res.insertId + " -- probably 1");
           console.log("rowsAffected: " + res.rowsAffected + " -- should be 1");
             
-              var node = document.createTextNode("rowsAffected " + res.rowsAffected + " -- should be 1");
+             var node = document.createTextNode("insertId rowsAffected " + res.rowsAffected + " -- should be 1");
             para.appendChild(node);
             var element = document.getElementById("deviceready");
             element.appendChild(para);
