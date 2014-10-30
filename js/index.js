@@ -20,10 +20,7 @@
 var para = document.createElement("p");
 document.addEventListener("deviceready", onDeviceReady, false);
 
-var node = document.createTextNode("PRAGMA res: " );
-            para.appendChild(node);
-            var element = document.getElementById("deviceready");
-            element.appendChild(para);
+v
 function onDeviceReady() {
   var db = window.sqlitePlugin.openDatabase({name: "DB"});
     
