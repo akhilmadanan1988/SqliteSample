@@ -44,7 +44,7 @@ function onDeviceReady() {
               console.log("res.rows.item(0).cnt: " + res.rows.item(0).cnt + " -- should be 1");
                 
                 
-            var node = document.createTextNode("res.rows.length: " + res.rows.length + " -- should be 1 and selected items" + res.rows.item(0).cnt);
+            var node = document.createTextNode("res.rows.length: " + res.rows.length + " -- should be 1 and selected items" + res.rows.item(0).data_num);
             para.appendChild(node);
             var element = document.getElementById("deviceready");
             element.appendChild(para);
